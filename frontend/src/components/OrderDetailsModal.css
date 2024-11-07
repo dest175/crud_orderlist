@@ -1,0 +1,67 @@
+/* OrderDetailsModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ff595e;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #5cb85c;
+  }
+  
+  .edit-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+  }
+  
+  .delete-button:hover {
+    background-color: #c9302c;
+  }
+  
