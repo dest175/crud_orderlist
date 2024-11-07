@@ -23,7 +23,7 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone [https://github.com/username/repository-name.git](https://github.com/dest175/crud_orderlist.git)
+   git clone https://github.com/dest175/crud_orderlist.git
    cd repository-name
    ```
 
