@@ -25,6 +25,7 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
    ```bash
    git clone [https://github.com/username/repository-name.git](https://github.com/dest175/crud_orderlist.git)
    cd repository-name
+   ```
 
 2. Instala las dependencias del backend y el frontend.
 
@@ -32,12 +33,12 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
   cd backend
   npm install
   npm run dev
-```
+  ```
 
   ```bash
   cd frontend
   npm install
   npm start
-```
+  ```
 
 
